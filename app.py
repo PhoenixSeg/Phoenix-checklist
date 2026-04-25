@@ -80,7 +80,7 @@ div.stButton > button:hover {
     """, unsafe_allow_html=True)
 
 # --- 2. LOGO E LOGIN ---
-for ext in [".jpg", ".jpeg", ".PNG", ".JPG", ".JPEG"]:
+for ext in [".jpg", ".jpeg", ".png", ".JPG", ".JPEG"]:
     if os.path.exists(f"Logo{ext}"):
         st.sidebar.image(f"Logo{ext}", use_container_width=True)
         break
