@@ -110,7 +110,7 @@ else:
 # --- ABA 1: NOVA MOVIMENTAÇÃO ---
 with tab1:
     st.header("Iniciar Novo Processo")
-    cias = [c.nome for c in session.query(Companhia).all()] or ["Amil", "Bradesco", "SulAmérica"]
+    cias = [c.nome for c in session.query(Companhia).all()] or ["Amil", "Bradesco", "SulAmérica", "Hapvida","Care Plus"]
     
     col1, col2 = st.columns(2)
     with col1:
